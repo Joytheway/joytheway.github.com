@@ -1,0 +1,112 @@
+body{
+    background-color: #ded7d9;
+}
+a:link{
+    color:slateblue;
+}
+a:visited{
+    color:darkred;
+}
+a:hover{
+    color:antiquewhite;
+    background-color: red;
+}
+.content h2{
+    color:gray;
+}
+#header{
+    height: 80px;
+    background-color:#272523;
+}
+#logo{
+    height: 60px;
+    width: 200px;
+    margin:10px 30px;
+}
+.content,form{
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    line-height:2;
+}
+.lessonlist{
+    height:200px;
+    width:200px;
+}
+table{
+    width: 1200px;
+    background-color: gray;
+    margin:0 auto;
+}
+tr{
+    background-color: white;
+}
+th{
+    background-color: #272523;
+    color:white;
+}
+.gray{
+    background-color: gray;
+    font-weight:bold;
+}
+aside{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#information{
+    margin-left:200px;
+    font-size:12px;
+}
+.line{
+    width:500px;
+    height:40px;
+}
+.line .left{
+    width:150px;
+    text-align: right;
+    line-height: 40px;
+    float:left;
+}
+.line .right{
+    width:330px;
+    line-height: 40px;
+    float:right;
+}
+form p{
+    margin-left: 170px;
+    margin-top:0;
+    width:330px;
+    height:20px;
+    line-height:20px;
+    color: gray;
+}
+.describe{
+    width:1000px;
+    margin-top: 10px;
+}
+.describe .left{
+    width:150px;
+    text-align: right;
+    float:left;
+}
+.describe .right{
+    width:830px;
+    float:right;
+}
+#submit{
+    width:1000px;
+    height: 40px;
+    line-height: 40px;
+    color:white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-left: 150px;
+}
+#submit:hover{
+    background-color:dodgerblue;
+    border-color: gray;
+}
