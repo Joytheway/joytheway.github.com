@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:"微软雅黑";
+    background-color: #ded7d9;
+}
+/*                       页面顶部                    */
+header{
+    width:100%;
+    height: 70px;
+    background-color:#272523;
+}
+.logo{
+    float:left;
+    text-align: left;
+    margin-top:10px;
+    margin-left:1%;
+}
+.logo-pic{
+    height: 40px;
+    width: 150px;
+}
+.nav{
+    float: right;
+    margin-top:20px;
+    margin-right:1%;
+    font-size:14px;
+}
+.nav li{
+    display: inline;
+}
+.nav li a{
+    color:white;
+    text-decoration: none;
+}
+.box1{
+    background-color: pink;
+}
+.article1{
+    margin-right:440px;
+}
+aside{
+    width:400px;
+    height: 600px;
+    background-color: white;
+    margin:20px;
+    border:1px solid #cccccc;
+    box-shadow: 2px 2px #aaaaaa;
+    float: right;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+form{
+    margin:10px;
+}
+.aside-title{
+    padding:10px;
+    border-left:5px solid #cccccc;
+}
+.row{
+    height:40px;
+    line-height:40px;
+}
+.row .row-left{
+    float: left;
+    width:30%;
+    text-align: right;
+}
+.row .row-right{
+    float: right;
+    width: 69%;
+}
+form p{
+    margin-left:31%;
+    height:20px;
+    line-height:20px;
+    color: gray;
+}
+.row .textarea{
+    width:65%;
+    height:50px;
+}
+.article2{
+    clear: both;
+}
+.article2,.article3,.article4{
+    margin-right:440px;;
+}
+article{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    line-height:1.5em;
+    border:1px solid #cccccc;
+    box-shadow: 2px 2px #aaaaaa;
+}
+.graytext{
+    color:gray;
+}
+article>p{
+    text-indent:2em;
+    margin:0px;
+}
+.pictures{
+    display: inline-block;
+    width:150px;
+    height:150px;
+    border:1px solid gray;
+    text-align: center;
+}
+.pictures p{
+    width:150px;
+    font-size:12px;
+    text-align: center;
+}
+.picture{
+    width: 100px;
+    height: 90px;
+    margin:auto;
+}
+table{
+    width:100%;
+    margin:auto;
+    border: 1px solid darkgray;
+    border-collapse: collapse;   /*此行决定了表格是单细线表格*/
+}
+th{
+    background-color: #272523;
+    color:white;
+}
+td{
+    border:1px solid darkgray;
+}
+.lastrow{
+    background-color: gray;
+    font-weight:bold;
+}
+
+/*               页脚             */
+footer{
+    height: 80px;
+    background-color:#272523;
+    text-align:center;
+    color:white;
+}
