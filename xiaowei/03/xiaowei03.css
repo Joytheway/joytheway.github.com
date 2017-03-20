@@ -1,0 +1,45 @@
+.box{
+    padding: 20px;
+    margin: 20px;
+    background-color: #eee;
+    border:1px solid #999;
+}
+.team,.member,.content{
+    border:1px solid #999;
+    background-color: #fff;
+}
+.box:after{
+    content:"";
+    height: 0;
+    display: block;
+    clear:both;
+    visibility: hidden;
+}
+.team{
+    width: 200px;
+    height: 120px;
+    float: left;
+}
+.teampic{
+    float: left;
+    margin:20px;
+}
+.member{
+    width: 120px;
+    height: 400px;
+    float: right;
+    text-align: center;
+}
+.content{
+    margin-left:220px;
+    margin-right:140px;
+}
+.content p{
+    text-indent:2em;
+    line-height:2em;
+}
+img{
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+}
